@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling >= 1.13.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "faster-api"
+version = "0.0.1"
+authors = [
+    { name = "Bruno Kiprop", email = "brunookiprop@gmail.com" },
+]
+description = "A python library built on top of FastApi with the aim of reducing development time."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bufleek/FasterApi"
+Issues = "https://github.com/bufleek/FasterApi/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["faster-api"]

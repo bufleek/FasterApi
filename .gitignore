@@ -1,0 +1,14 @@
+# environments
+venv/
+env/
+*.env
+*.env.*
+
+# cache
+__pycache__/
+*.pyc
+
+# build
+build/
+dist/
+*.egg-info/
